@@ -1,0 +1,131 @@
+body {
+  font-family: "Microsoft YaHei", sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+/*顶部导航*/
+a {
+  color: #333;
+}
+.duoduo_topBar {
+  border: 0px solid #ccc;
+  font-size: 12px;
+  color: #666;
+}
+.duoduo_app {
+  font-size: 18px;
+}
+.duoduo_topBar > .container > .row > div {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.duoduo_topBar a:hover {
+  color: #ff0000;
+  text-decoration: none;
+}
+input {
+  width: 350px;
+  height: 50px;
+  border: 1px solid #7fcc0b;
+  border-right: none;
+  border-radius: 4px;
+  margin-top: 0;
+}
+button {
+  right: 2px;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #ffc0cb;
+  border: 0;
+  border-radius: 4px;
+}
+/*navbar导航*/
+.duoduo_nav {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.duoduo_nav .nav_list > a {
+  float: left;
+  margin: 0 15px;
+}
+.duoduo_nav a:hover {
+  color: #ffa500;
+  text-decoration: none;
+}
+
+.navbar .navbar-toggle {
+  color: #ffa500;
+}
+.navbar .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+
+/*轮播图导航*/
+.duoduo_panner > div {
+  height: auto;
+  width: 100%;
+}
+/*信息和预约模块*/
+.duoudo_info {
+  padding: 50px;
+  border-bottom: 1px solid #ccc;
+}
+.duoudo_info > .container {
+  width: 910px;
+}
+.duoduo_info .duoudo_font_color {
+  color: #888;
+}
+.duoduo_info a:hover {
+  color: #e92322;
+  text-decoration: none;
+}
+
+.duoduo_book .heima_icon {
+  font-size: 15px;
+}
+.duoduo_book {
+  padding: 25px 0;
+  border-bottom: 1px solid #ccc;
+}
+.duoduo_book > .container {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+}
+.duoduo_book a:hover {
+  color: #e92322;
+  text-decoration: none;
+}
+.duoduo_book > .book_top {
+  padding-left: 50px;
+  padding-top: 0px;
+  font-size: 22px;
+}
+.duoduo_news > .container {
+  width: 1400px;
+  height: 350px;
+  background-color: whitesmoke;
+}
+.duoduo_news a:hover {
+  color: #e92322;
+  text-decoration: none;
+}
+.duoduo_news > .news_type > .type {
+  display: inline-block;
+  text-align: center;
+}
+.duoduo_partner {
+  width: 100%;
+  height: 80px;
+  background-color: #ccc;
+}
+
+.duoduo_partner > .foot-3 {
+  margin-top: 10px;
+}
